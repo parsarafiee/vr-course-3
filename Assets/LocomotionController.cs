@@ -5,15 +5,17 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class LocomotionController : MonoBehaviour
 {
-    public XRController leftTeleportRay;
+    public XRController teleportationController;
    // public XRController RightTeleportRay;
     public InputHelpers.Button teleportActivationButton;
     public float activationThreshold = 0.1f;
+
+    public bool EnableTeleport { get; set; } = true;
     void Update()
     {
-        if (leftTeleportRay)
+        if (teleportationController)
         {
-            leftTeleportRay.gameObject.SetActive(ChechIfActivated(leftTeleportRay));
+            teleportationController.gameObject.SetActive(EnableTeleport && ChechIfActivated(teleportationController));
         }
         
     }
