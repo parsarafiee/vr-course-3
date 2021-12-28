@@ -9,6 +9,7 @@ public class LocomotionController : MonoBehaviour
    // public XRController RightTeleportRay;
     public InputHelpers.Button teleportActivationButton;
     public float activationThreshold = 0.1f;
+    public  GameObject leftRay;
 
     public bool EnableTeleport { get; set; } = true;
     void Update()
@@ -17,6 +18,9 @@ public class LocomotionController : MonoBehaviour
         {
             teleportationController.gameObject.SetActive(EnableTeleport && ChechIfActivated(teleportationController));
         }
+
+
+
         
     }
 
