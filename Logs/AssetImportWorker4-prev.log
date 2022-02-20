@@ -1,0 +1,1242 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 16194 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Unity/vr course 3
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61998
+Successfully changed project path to: C:/Unity/vr course 3
+C:/Unity/vr course 3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 835.51 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 5.46 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/vr course 3/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001865 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 175.70 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3924ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (176ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 183.00 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.429 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4431ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (4076ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (689ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (195ms)
+			SetupLoadedEditorAssemblies (2771ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (183ms)
+				BeforeProcessingInitializeOnLoad (229ms)
+				ProcessInitializeOnLoadAttributes (1841ms)
+				ProcessInitializeOnLoadMethodAttributes (503ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.35 ms.
+Unloading 5452 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 307.8 MB.
+System memory in use after: 308.1 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 5952.
+Total: 14.224100 ms (FindLiveObjects: 1.392800 ms CreateObjectMapping: 0.811300 ms MarkObjects: 11.600900 ms  DeleteObjects: 0.415800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_C_Image_V3.mat
+  artifactKey: Guid(719cbb2c32257ad40bcda4be4fcae54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_C_Image_V3.mat using Guid(719cbb2c32257ad40bcda4be4fcae54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f2bea8323a3dc7281b477392beb945') in 1.514392 seconds 
+  Import took 1.539383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_F_Image_V1.mat
+  artifactKey: Guid(d4e17e2ed4d22854cac868a6bc43721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_F_Image_V1.mat using Guid(d4e17e2ed4d22854cac868a6bc43721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f5fa25bafc886f5ed17e2783c78f62') in 0.069581 seconds 
+  Import took 0.084881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_C_Image_V1.mat
+  artifactKey: Guid(4551be96b632e344c9cc97d830f2e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_C_Image_V1.mat using Guid(4551be96b632e344c9cc97d830f2e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86722b191ed839185c1280ef37a9f77f') in 0.065692 seconds 
+  Import took 0.080551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_G_Image_V1.mat
+  artifactKey: Guid(165f656c382fc93418e2539759501c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_G_Image_V1.mat using Guid(165f656c382fc93418e2539759501c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba343a552cf1c457ee80793c155a97a2') in 0.078109 seconds 
+  Import took 0.091479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_F_Image_V2.mat
+  artifactKey: Guid(24bcb2c778236df469abe201cbc5c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_F_Image_V2.mat using Guid(24bcb2c778236df469abe201cbc5c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd4725ec8b2ab1217e07a9a8910cfa1') in 0.083332 seconds 
+  Import took 0.097857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_D_Image_V1.mat
+  artifactKey: Guid(79aad64683209d3439ec42834b2fa7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_D_Image_V1.mat using Guid(79aad64683209d3439ec42834b2fa7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a2f648494394d67a9c51e73ac46adf') in 0.072965 seconds 
+  Import took 0.087576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_F_Image_V3.mat
+  artifactKey: Guid(9d750bec64cb1cd4b81f3fdd7620d51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_F_Image_V3.mat using Guid(9d750bec64cb1cd4b81f3fdd7620d51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fcf33f5d17482394fd2f89858cbc6a') in 0.084010 seconds 
+  Import took 0.098650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_B_Image_V1.mat
+  artifactKey: Guid(aff3870a5ad6c4d47a9bb40aa753c179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_B_Image_V1.mat using Guid(aff3870a5ad6c4d47a9bb40aa753c179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00008c305101ec886cebc2bd965421b') in 0.065513 seconds 
+  Import took 0.079619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_E_Image_V3.mat
+  artifactKey: Guid(82ea25e37c6644544a692c48bd4533aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_E_Image_V3.mat using Guid(82ea25e37c6644544a692c48bd4533aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b16a13862d53e8399f1908005c8817') in 0.074608 seconds 
+  Import took 0.090182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_F_Image_V2.mat
+  artifactKey: Guid(5d2895a774a9d644db4af4b5bc45b56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_F_Image_V2.mat using Guid(5d2895a774a9d644db4af4b5bc45b56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09306f994543ee5e3f016eb77ab8edd') in 0.059078 seconds 
+  Import took 0.074548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_D_Image_V3.mat
+  artifactKey: Guid(798c1c3b81817dd4d867cf525f03133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_D_Image_V3.mat using Guid(798c1c3b81817dd4d867cf525f03133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e935a1296b1e1b9b766c74c05adff52f') in 0.062578 seconds 
+  Import took 0.076090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_E_Image_V2.mat
+  artifactKey: Guid(76413a13f2865914ebf8b30acf9d51c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_E_Image_V2.mat using Guid(76413a13f2865914ebf8b30acf9d51c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91383f0bd80cf9fb4a6d3c688e251c60') in 0.070459 seconds 
+  Import took 0.083288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_B_Image_V3.mat
+  artifactKey: Guid(c3ac6bad12d7c4a42b237a2ab5404638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_B_Image_V3.mat using Guid(c3ac6bad12d7c4a42b237a2ab5404638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5705477a7f77d9a8fce687ea27d0063c') in 0.062299 seconds 
+  Import took 0.074651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_D_Image_V2.mat
+  artifactKey: Guid(52893c3ba9e0f5d4f9cb6c6b5c793bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_D_Image_V2.mat using Guid(52893c3ba9e0f5d4f9cb6c6b5c793bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a051e5ea2bcb14b81c82f827f8bf3e5') in 0.057206 seconds 
+  Import took 0.069810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_D_Image_V3.mat
+  artifactKey: Guid(c1b92366560326341be67e3f60ec1a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_D_Image_V3.mat using Guid(c1b92366560326341be67e3f60ec1a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970256ab8f18e9915bd4a119551edbd4') in 0.058964 seconds 
+  Import took 0.071338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_E_Image_V2.mat
+  artifactKey: Guid(76d9ee71ad48c46438c9f5b4cc9c94af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_E_Image_V2.mat using Guid(76d9ee71ad48c46438c9f5b4cc9c94af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b51220c164d83f3545c78df04199df8') in 0.047952 seconds 
+  Import took 0.059575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_E_Image_V3.mat
+  artifactKey: Guid(e43af3d48c0babc4686fce0f7e54be99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_E_Image_V3.mat using Guid(e43af3d48c0babc4686fce0f7e54be99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3306c606185151caddf3634f5e86563c') in 0.053700 seconds 
+  Import took 0.067711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_D_Image_V2.mat
+  artifactKey: Guid(8766a1720fa5fa041b74a2762c273cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_D_Image_V2.mat using Guid(8766a1720fa5fa041b74a2762c273cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d69106f40d7d2b3d2c00ad6a4c2b1a') in 0.054338 seconds 
+  Import took 0.066119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_E_Image_V1.mat
+  artifactKey: Guid(a4b288cfb10dd1d4f8f1fc1a4fd5605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_E_Image_V1.mat using Guid(a4b288cfb10dd1d4f8f1fc1a4fd5605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e622303053a27bb8d29dc8527c249f') in 0.047668 seconds 
+  Import took 0.058874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_A_Image_V3.mat
+  artifactKey: Guid(4fb78dff64bb3154da044c4f8c1418a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_A_Image_V3.mat using Guid(4fb78dff64bb3154da044c4f8c1418a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8f72c24b9da56108a7f978a3d5936c') in 0.050666 seconds 
+  Import took 0.063225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_A_Image_V1.mat
+  artifactKey: Guid(97e1dd2e175e50c468bef17f3b012573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_A_Image_V1.mat using Guid(97e1dd2e175e50c468bef17f3b012573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5203e45dd13699fe7f901b3dbb3a7f4e') in 0.047706 seconds 
+  Import took 0.059866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_E_Image_V1.mat
+  artifactKey: Guid(babb25467c46ecf429253413c139f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_E_Image_V1.mat using Guid(babb25467c46ecf429253413c139f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fd495fec08e4084ee0e8d5c0aa26e2') in 0.053894 seconds 
+  Import took 0.066642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_A_Image_V2.mat
+  artifactKey: Guid(7e95ceb8d92e25f4da2f88a1a59feda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_A_Image_V2.mat using Guid(7e95ceb8d92e25f4da2f88a1a59feda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d8aefca5a9d8b80dc0938f6ea38fa8') in 0.052048 seconds 
+  Import took 0.064127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_C_Image_V2.mat
+  artifactKey: Guid(0339a4ac4386ab34faf06580ade8f5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_C_Image_V2.mat using Guid(0339a4ac4386ab34faf06580ade8f5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f3a54e93ad8ab614d9e76410162e07') in 0.053216 seconds 
+  Import took 0.066605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_G_Image_V1.mat
+  artifactKey: Guid(62375d2cd791d0f479ae0df457e417eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_G_Image_V1.mat using Guid(62375d2cd791d0f479ae0df457e417eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8a28629957cc6763fd649d7b629551') in 0.045940 seconds 
+  Import took 0.056974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_F_Image_V3.mat
+  artifactKey: Guid(671273c6c30f00c49ac9d644fb1b27f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_F_Image_V3.mat using Guid(671273c6c30f00c49ac9d644fb1b27f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac1f449c02ce235d179a9a32d47fd38') in 0.044485 seconds 
+  Import took 0.055136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_F_Image_V1.mat
+  artifactKey: Guid(ab1e661a67a301e4da590737277493e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Materials/Ads_Holograms_/Ad_F_Image_V1.mat using Guid(ab1e661a67a301e4da590737277493e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30e6a6c8be3519c8beac16fe9fdb677') in 0.049854 seconds 
+  Import took 0.060593 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2970ms)
+		BeginReloadAssembly (308ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2576ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (1150ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 5016 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 298.8 MB.
+System memory in use after: 299.1 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 6160.
+Total: 7.172700 ms (FindLiveObjects: 0.586100 ms CreateObjectMapping: 0.326300 ms MarkObjects: 6.086800 ms  DeleteObjects: 0.172200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 239.728730 seconds.
+  path: Assets/Prefabs/Hand Presence Right.prefab
+  artifactKey: Guid(2743e6086e4e8784585465b37f3a0d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hand Presence Right.prefab using Guid(2743e6086e4e8784585465b37f3a0d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017c17f9481a86fc6372658b6a9cf13b') in 0.092243 seconds 
+  Import took 0.102983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/VR Controllers Models/Oculus Quest Controller - Left.prefab
+  artifactKey: Guid(c836783e3928a624e9ff9c70d4f21606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Quest Controller - Left.prefab using Guid(c836783e3928a624e9ff9c70d4f21606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4559033b84971c0715042a1911470b0') in 0.595843 seconds 
+  Import took 0.605992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Oculus Hands/Animations/l_hand_fist_anim.fbx
+  artifactKey: Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Animations/l_hand_fist_anim.fbx using Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f0fbd06d29b99d27391cda5b6c26e6') in 0.053624 seconds 
+  Import took 0.061887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/VR Controllers Models/Oculus Quest Controller - Right.prefab
+  artifactKey: Guid(cfa8dc06d611ba340b06bbefba58ee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Quest Controller - Right.prefab using Guid(cfa8dc06d611ba340b06bbefba58ee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d857d02a3bb641a6b068c47b86ee7f7') in 0.049740 seconds 
+  Import took 0.058622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Military Vehicles/Prefabs/Humvee.prefab
+  artifactKey: Guid(ebe95f83a80a46848a7d94e7046a2110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military Vehicles/Prefabs/Humvee.prefab using Guid(ebe95f83a80a46848a7d94e7046a2110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660df35e877838999d23cdc9598d4d05') in 0.094161 seconds 
+  Import took 0.103768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/VR Controllers Models/Oculus Touch Controller - Right.prefab
+  artifactKey: Guid(0efe8147fc0009d4ea3039b2374d927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Touch Controller - Right.prefab using Guid(0efe8147fc0009d4ea3039b2374d927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43009cc84785de33636afeacd6d4ffea') in 0.045565 seconds 
+  Import took 0.053425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/VR Controllers Models/Oculus Touch Controller - Left.prefab
+  artifactKey: Guid(b2ec64201e9ec6c4ba155691307536cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Touch Controller - Left.prefab using Guid(b2ec64201e9ec6c4ba155691307536cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6753166ce12eb45b5aaa0970142876') in 0.043433 seconds 
+  Import took 0.052036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Military Vehicles/Models/Humvee.FBX
+  artifactKey: Guid(45faa5bda8817e3418474ae643b6c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military Vehicles/Models/Humvee.FBX using Guid(45faa5bda8817e3418474ae643b6c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e63e648efffed96ec3f18893174b5d') in 0.167243 seconds 
+  Import took 0.175505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Oculus Hands/Animations/l_hand_default_anim.fbx
+  artifactKey: Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Animations/l_hand_default_anim.fbx using Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52f17163b806c5692de8d8a843db68d') in 0.016791 seconds 
+  Import took 0.024854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Oculus Hands/Animations/l_hand_pinch_anim.fbx
+  artifactKey: Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Animations/l_hand_pinch_anim.fbx using Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150a19feddeb614ced70a2547659f212') in 0.016346 seconds 
+  Import took 0.025927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.513822 seconds.
+  path: Assets/ExampleAssets/Prefabs/Props.prefab
+  artifactKey: Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/Props.prefab using Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5aa35e1535ab7b07fe26840f659d6c8') in 0.239879 seconds 
+  Import took 0.249888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Oculus Hands/Animations/r_hand_default_anim.fbx
+  artifactKey: Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Animations/r_hand_default_anim.fbx using Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1384291c3f80b51eaf80381e609ee52e') in 0.014866 seconds 
+  Import took 0.023630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sci-Fi Neon City/Prefabs/Lower_Part_/Road_.prefab
+  artifactKey: Guid(53dcfb91daed5d74d86f453861f52b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Prefabs/Lower_Part_/Road_.prefab using Guid(53dcfb91daed5d74d86f453861f52b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9141a47c6d746df8c843fcbd16c2070b') in 0.066353 seconds 
+  Import took 0.076016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sci-Fi Neon City/Prefabs/Lower_Part_/Sidewalk_.prefab
+  artifactKey: Guid(4256a1682369506439759c9d1c867ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Prefabs/Lower_Part_/Sidewalk_.prefab using Guid(4256a1682369506439759c9d1c867ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be80c42b2b7496402d4a9c4f27dfd19') in 0.063758 seconds 
+  Import took 0.073427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Prefabs/Lower_Part_/Sidewalk_.prefab
+  artifactKey: Guid(fecd52bf36c246449bcba541d1c0f525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Prefabs/Lower_Part_/Sidewalk_.prefab using Guid(fecd52bf36c246449bcba541d1c0f525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414376b9114c6ac814b81cd8d5238e57') in 0.013402 seconds 
+  Import took 0.023528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefabs/Right Hand.prefab
+  artifactKey: Guid(368a0e3225c8f4440a98a3db9bc2ec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Right Hand.prefab using Guid(368a0e3225c8f4440a98a3db9bc2ec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc799c9c5eda56b2293ec63a20dec160') in 0.034553 seconds 
+  Import took 0.043708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Oculus Hands/Animations/r_hand_pinch_anim.fbx
+  artifactKey: Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Animations/r_hand_pinch_anim.fbx using Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec91e20af90574846a87266d81182fc0') in 0.014758 seconds 
+  Import took 0.023957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Prefabs/Lower_Part_/Road_.prefab
+  artifactKey: Guid(8960d60719531114fa9dbbcc08917f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Prefabs/Lower_Part_/Road_.prefab using Guid(8960d60719531114fa9dbbcc08917f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907befde6770dacef26380b1ae3a73de') in 0.005987 seconds 
+  Import took 0.015164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sci-Fi Neon City/Sci-Fi_Neon_City_fbx.FBX
+  artifactKey: Guid(ef176958a034278499258966dc8f7095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Sci-Fi_Neon_City_fbx.FBX using Guid(ef176958a034278499258966dc8f7095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca35c9d93357c2f39d56589d3a044c5') in 7.295414 seconds 
+  Import took 7.344468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Oculus Hands/Animations/r_hand_fist_anim.fbx
+  artifactKey: Guid(005ab0ae8aa7f74438a5fa50f7cd50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Animations/r_hand_fist_anim.fbx using Guid(005ab0ae8aa7f74438a5fa50f7cd50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d2d312f4b2d5b9dff694c2346630c0') in 0.044862 seconds 
+  Import took 0.060758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe0ed20a5d41a634398d712b77a102b') in 0.078696 seconds 
+  Import took 0.094767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3737ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (54ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (3367ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (654ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (1902ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (201ms)
+				ProcessInitializeOnLoadAttributes (1639ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.95 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 301.1 MB.
+System memory in use after: 301.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 6301.
+Total: 6.695600 ms (FindLiveObjects: 0.621200 ms CreateObjectMapping: 0.335100 ms MarkObjects: 5.563700 ms  DeleteObjects: 0.174200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 356.190656 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Hard_Surface_/Material_2.mat
+  artifactKey: Guid(95b2367970993cb40a672c4affb6749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Hard_Surface_/Material_2.mat using Guid(95b2367970993cb40a672c4affb6749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b01c1fa16637dc95766ce24c55a350') in 0.631404 seconds 
+  Import took 0.642557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Hard_Surface_/Material_5.mat
+  artifactKey: Guid(e1b661045c5217247982cd7175203229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Hard_Surface_/Material_5.mat using Guid(e1b661045c5217247982cd7175203229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b30713c5b3563ae7b2d1f2f1145d3e5') in 0.056363 seconds 
+  Import took 0.066593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Hard_Surface_/Material_3.mat
+  artifactKey: Guid(b9e7998f59364fe4da8a2d0cb3c8e3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Hard_Surface_/Material_3.mat using Guid(b9e7998f59364fe4da8a2d0cb3c8e3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe1d5262ec1ba46fe788dbf576ebe38') in 0.052508 seconds 
+  Import took 0.063519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.054924 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_B_Image_V2.mat
+  artifactKey: Guid(e76077aa0c78dff409d4a2acaa24a9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Ads_Holograms_/Ad_B_Image_V2.mat using Guid(e76077aa0c78dff409d4a2acaa24a9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b8567885cea89ab420b211830f2510') in 0.126115 seconds 
+  Import took 0.146151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.261482 seconds.
+  path: Assets/Sci-Fi Neon City/Materials/Hard_Surface_/Roof_Platform_.mat
+  artifactKey: Guid(336b1f883ed34e64aaa3b6069aec9bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Materials/Hard_Surface_/Roof_Platform_.mat using Guid(336b1f883ed34e64aaa3b6069aec9bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba6a4b185029f6dd7ca3c33310ed0c7') in 0.106910 seconds 
+  Import took 0.126317 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027030 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2808ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2525ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (1336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (1128ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 301.6 MB.
+System memory in use after: 302.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 6439.
+Total: 7.939800 ms (FindLiveObjects: 0.675100 ms CreateObjectMapping: 0.346400 ms MarkObjects: 6.705700 ms  DeleteObjects: 0.211300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.17 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5806ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (5366ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (944ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (234ms)
+			SetupLoadedEditorAssemblies (2957ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (381ms)
+				ProcessInitializeOnLoadAttributes (2468ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (96ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.84 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.61 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 301.7 MB.
+System memory in use after: 302.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 6442.
+Total: 21.535300 ms (FindLiveObjects: 2.758800 ms CreateObjectMapping: 2.133900 ms MarkObjects: 16.208500 ms  DeleteObjects: 0.424800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 808.545838 seconds.
+  path: Assets/Oculus Hands/Prefabs/New Lighting Settings.lighting
+  artifactKey: Guid(acaefe566a5182042947ed7f0b1cca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Prefabs/New Lighting Settings.lighting using Guid(acaefe566a5182042947ed7f0b1cca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93cd118bc30581d9113d8e9e2032b4d') in 0.058763 seconds 
+  Import took 0.077828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.118818 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Scenes/Sci-Fi Neon City.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Scenes/Sci-Fi Neon City.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1963ebfc0ca9253c1cdb7f5a3a9aaa') in 0.009635 seconds 
+  Import took 0.019099 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1957ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1772ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (967ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (815ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 301.5 MB.
+System memory in use after: 301.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 6445.
+Total: 5.404600 ms (FindLiveObjects: 0.514100 ms CreateObjectMapping: 0.262600 ms MarkObjects: 4.478800 ms  DeleteObjects: 0.148300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4121.846358 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Scenes/Sci-Fi Neon City/New Lighting Settings.lighting
+  artifactKey: Guid(95647f2153d56ed4389e8f9080a2d28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Scenes/Sci-Fi Neon City/New Lighting Settings.lighting using Guid(95647f2153d56ed4389e8f9080a2d28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5b7d9bae0ead4f9a6646ee9ec7cce9') in 0.042972 seconds 
+  Import took 0.051755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 428.078134 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Scenes/Sci-Fi Neon City/city_spiderman.lighting
+  artifactKey: Guid(8b15fe9466612744cb44f8d877bf1792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Scenes/Sci-Fi Neon City/city_spiderman.lighting using Guid(8b15fe9466612744cb44f8d877bf1792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7f819564780f01ccb642c7e4bf8015') in 0.008101 seconds 
+  Import took 0.016629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7989.790278 seconds.
+  path: Assets/Scenes/new city for SpiderMan/Lightmap-1_comp_dir.png
+  artifactKey: Guid(9e71bd6edfc82cd4daaeea3a7c834924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new city for SpiderMan/Lightmap-1_comp_dir.png using Guid(9e71bd6edfc82cd4daaeea3a7c834924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ff1087f854e50e49e31937ad2a9245') in 0.732379 seconds 
+  Import took 1.035705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Scenes/new city for SpiderMan/Lightmap-2_comp_dir.png
+  artifactKey: Guid(ad04c7e057757764f9bfe01a89197338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new city for SpiderMan/Lightmap-2_comp_dir.png using Guid(ad04c7e057757764f9bfe01a89197338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59f17625a828488d0216f7db5854675') in 0.044016 seconds 
+  Import took 0.059412 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.560665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.66 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6662ms)
+		BeginReloadAssembly (936ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (69ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (533ms)
+		EndReloadAssembly (5556ms)
+			LoadAssemblies (311ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1043ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (237ms)
+			SetupLoadedEditorAssemblies (2801ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (354ms)
+				ProcessInitializeOnLoadAttributes (2345ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (92ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.65 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.76 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 301.7 MB.
+System memory in use after: 302.1 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 6449.
+Total: 34.592100 ms (FindLiveObjects: 3.043800 ms CreateObjectMapping: 1.476700 ms MarkObjects: 29.428500 ms  DeleteObjects: 0.635800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.292650 seconds.
+  path: Assets/Scenes/new city for SpiderMan/Lightmap-1_comp_light.exr
+  artifactKey: Guid(6ba5272b1fb71844cb213391afb61785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new city for SpiderMan/Lightmap-1_comp_light.exr using Guid(6ba5272b1fb71844cb213391afb61785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac03a80c6ff232d82085faf323356482') in 1.191283 seconds 
+  Import took 1.248458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001181 seconds.
+  path: Assets/Scenes/new city for SpiderMan/Lightmap-0_comp_dir.png
+  artifactKey: Guid(129d878ec36d7b745812371c6285ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new city for SpiderMan/Lightmap-0_comp_dir.png using Guid(129d878ec36d7b745812371c6285ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cbe28e857a1cf21dd615063b5df973') in 0.107838 seconds 
+  Import took 0.169103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001591 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(ca9ab55eb70c96a47ab13061e84ec8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(ca9ab55eb70c96a47ab13061e84ec8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55dfe4d3ac5ef292977773dcc70b4a8') in 0.157655 seconds 
+  Import took 0.211058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002124 seconds.
+  path: Assets/Scenes/new city for SpiderMan/LightingData.asset
+  artifactKey: Guid(e21f3d000883c314284f6953619e1037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new city for SpiderMan/LightingData.asset using Guid(e21f3d000883c314284f6953619e1037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b42246c73babdcd928fb3d31c924e8') in 0.043557 seconds 
+  Import took 0.085638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Scenes/new city for SpiderMan/Lightmap-0_comp_light.exr
+  artifactKey: Guid(3daf8dd35749a5f4aa4302736a4982b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new city for SpiderMan/Lightmap-0_comp_light.exr using Guid(3daf8dd35749a5f4aa4302736a4982b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f51b61a43742ab35f765e1974c623e') in 0.091861 seconds 
+  Import took 0.138465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Scenes/new city for SpiderMan/Lightmap-74_comp_light.exr
+  artifactKey: Guid(7c12e574185cab24888c138ad47045fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/new city for SpiderMan/Lightmap-74_comp_light.exr using Guid(7c12e574185cab24888c138ad47045fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58a11e82c508415426b11ac35f01820') in 0.069282 seconds 
+  Import took 0.109701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 795.846921 seconds.
+  path: Assets/Sci-Fi Neon City HDRP/Textures/ADs_V1/Ad_C_V1/Ad_C_Image_V1.png
+  artifactKey: Guid(900653c1b0e6a5944a23d153b69668e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City HDRP/Textures/ADs_V1/Ad_C_V1/Ad_C_Image_V1.png using Guid(900653c1b0e6a5944a23d153b69668e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b91e68170b14131e81098eea11b8e9') in 0.038479 seconds 
+  Import took 0.058836 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 2.280666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity\vr course 3\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <2cd7ebc9c2ef4276a8edbc7de85c89ce>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8481ms)
+		BeginReloadAssembly (404ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (196ms)
+		EndReloadAssembly (7993ms)
+			LoadAssemblies (5179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (573ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (1562ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (1366ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524290) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 5006 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 295.3 MB.
+System memory in use after: 295.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 6455.
+Total: 6.605300 ms (FindLiveObjects: 0.592900 ms CreateObjectMapping: 0.331900 ms MarkObjects: 5.503300 ms  DeleteObjects: 0.175900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.68 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.4 MB.
+System memory in use after: 197.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 6455.
+Total: 6.989100 ms (FindLiveObjects: 0.625800 ms CreateObjectMapping: 0.375400 ms MarkObjects: 5.811600 ms  DeleteObjects: 0.174800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.81 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.4 MB.
+System memory in use after: 197.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 6455.
+Total: 6.747500 ms (FindLiveObjects: 0.584500 ms CreateObjectMapping: 0.340200 ms MarkObjects: 5.660100 ms  DeleteObjects: 0.161700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11001.907662 seconds.
+  path: Assets/Sci-Fi Neon City/Ads_Templates_fbx.FBX
+  artifactKey: Guid(a4396e080bf5fb842a3658166a4ea937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Neon City/Ads_Templates_fbx.FBX using Guid(a4396e080bf5fb842a3658166a4ea937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Platform Android with graphics API OpenGLES3 is not supported with HDRP, use the Vulkan graphics API instead.
+Change the platform/device to a compatible one or remove incompatible graphics APIs.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEngine.Rendering.HighDefinition.HDUtils:DisplayMessageNotification (string) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.7.0/Runtime/RenderPipeline/Utility/HDUtils.cs:1146)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:CheckAPIValidity () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.7.0/Runtime/RenderPipeline/HDRenderPipeline.cs:946)
+UnityEngine.Rendering.HighDefinition.HDRenderPipeline:.ctor (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset,UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.7.0/Runtime/RenderPipeline/HDRenderPipeline.cs:417)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.7.0/Runtime/RenderPipeline/HDRenderPipelineAsset.cs:44)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@10.7.0/Runtime/RenderPipeline/Utility/HDUtils.cs Line: 1146)
+
+ -> (artifact id: 'c82508524e6966ce464ee29af17cce65') in 1.491657 seconds 
+  Import took 1.666696 seconds .
+
